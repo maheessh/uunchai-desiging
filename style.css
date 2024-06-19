@@ -316,13 +316,25 @@ nav{
 .elem .overlay{
     height: 100%;
     width: 100%;
-    background-color: #222;
+    background-color: #c40017;
     position: absolute;
     left: 0;
     top: -100%;
-transition: all ease 0.8s;
+    transition: all ease 0.4s;
 }
 
 .elem:hover .overlay{
   top: 0;  
+}
+
+.fixed-image{
+    height: 30vw;
+    width: 25vw;
+    border-radius: 10px;
+    position: fixed;
+    z-index: 99;
+    left: 50%;
+    top: 25%;
+    display: none;
+    background-size: cover;
 }
