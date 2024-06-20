@@ -46,7 +46,7 @@ page4Animation()
 swiperAnimation()
 
 var menu = document.querySelector("nav h3") 
-var full = document.querySelector(".fullscr")
+var full = document.querySelector("#fullscr")
 var navimg = document.querySelector("nav img")
 var flag = 0
 menu.addEventListener("click",function(){
