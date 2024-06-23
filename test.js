@@ -1,3 +1,5 @@
+alert("Lots of Work to Do")
+
 const amazonProduct = {
     itemName : "Parker Jotter Standard CT Ball Pen (Black)",
     rateUser: 7002,
@@ -58,3 +60,42 @@ for (let i =1 ; i<=5 ; i++) {
     sum = sum + i; 
 }
 console.log(sum)
+
+let i = 0; 
+while (i<=10) {
+    console.log("Mahesh Pandit")
+}
+
+
+const student = {
+    name: "Mahesh Pandit",
+    age: 13,
+    cgpa: 3.5,
+    isPass: true,
+
+}; 
+
+for (let key in student) {
+    console.log("key=", key, "value=", student[key]);
+}
+
+console.log("Mahesh is a code so go visit him he will help you to code other website trust me")
+
+
+let i =100; 
+for (let j=1; j<=i; j++) {
+    if(j%2 !== 0){
+        console.log(j)
+    }
+}
+
+let gameNum = 25; 
+let guessNumber = prompt('Guess the game Number');
+
+
+
+while (guessNumber != gameNum) {
+    guessNumber = prompt("You entered wrong number, try agian!")
+}
+ 
+console.log("Congrats! You entered the right number");
