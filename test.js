@@ -1,4 +1,10 @@
-var a = document.querySelector("img")
+const amazonProduct = {
+    itemName : "Parker Jotter Standard CT Ball Pen (Black)",
+    rateUser: 7002,
+    label: "Deal of the Day.",
+    price: 270,
+    discount: "5% Off"
+}
 
-var b = a.getAttribute("data-company")
-console.log(b)
+amazonProduct.rateUser = amazonProduct.rateUser + 1
+console.log(amazonProduct)
