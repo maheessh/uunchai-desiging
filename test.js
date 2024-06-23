@@ -21,7 +21,7 @@ Profile.postCount = Profile.postCount + 3;
 console.log(Profile);
 
 
-let age = 12;
+let age = 19;
 if (age > 18) {
     console.log("Age is match, you can vote");
 }else{
