@@ -27,3 +27,14 @@ if (age > 18) {
 }else{
     console.log("You cannot vote, sorry!")
 }
+
+
+let name = prompt("Enter any Number");
+
+if (name%5 == 0) {
+    console.log('The number is multiple of 5');
+}else{
+    console.log("It is not");
+}
+
+
