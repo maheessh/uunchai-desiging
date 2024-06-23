@@ -8,3 +8,14 @@ const amazonProduct = {
 
 amazonProduct.rateUser = amazonProduct.rateUser + 1
 console.log(amazonProduct)
+
+
+const Profile = {
+    profileUser: "Mahesh Pandit",
+    postCount: 195,
+    ifFollow: true,
+    title: "Microsoft Intern"
+}
+
+Profile.postCount = Profile.postCount + 3;
+console.log(Profile);
