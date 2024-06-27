@@ -1,11 +1,13 @@
-const studentMarks = [85, 87, 98, 93, 88, 89, 80, 79];
+let  itemPrice = [250, 645, 300, 900, 50]
 
-let sum =0;
-for (let sumM of studentMarks) {
-    sum = sum + sumM;
+console.log(`The Price Before the Discount = ${itemPrice}`)
+
+let disc = 0; 
+
+
+for (let dis of itemPrice) {
+    discount = dis * 0.01;
+    itemPrice[disc] = itemPrice[disc] - discount;
+    console.log(`Value after discount = ${itemPrice[disc]}`);
+    discount++;
 }
-
-console.log("Total Score of After Add all marks = " , sum);
-let avg = sum/ studentMarks.length
-console.log("Avergage class mark is = " + avg);
-
