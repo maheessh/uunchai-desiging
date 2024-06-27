@@ -11,3 +11,26 @@ for (let dis of itemPrice) {
     console.log(`Value after discount = ${itemPrice[disc]}`);
     discount++;
 }
+
+
+let veggies = ['chowchow', 'apple', 'litchi', 'tomatoes'];
+
+console.log(veggies)
+veggies.push('Mahesh');
+console.log(veggies)
+
+veggies.pop()
+console.log(veggies)
+
+
+console.log(veggies.toString())
+
+
+let mix = itemPrice.concat(veggies);
+console.log(mix)
+
+
+veggies.unshift('Aalu')
+console.log(veggies)
+
+
