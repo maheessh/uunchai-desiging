@@ -34,3 +34,4 @@ veggies.unshift('Aalu')
 console.log(veggies)
 
 
+console.log(veggies.slice(1,3))
