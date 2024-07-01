@@ -326,6 +326,16 @@ nav h3 {
     padding: 4vw 0;
 }
 
+.page3 .title{
+    padding: 1vw 2vw;
+}
+
+.page3 .title p{
+    font-weight: 200;
+    font-size: 1.5vw;
+    color: rgb(143, 2, 2);
+}
+
 .elem {
     height: 150px;
     width: 100%;
